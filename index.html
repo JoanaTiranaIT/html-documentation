@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        #sidebar {
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        #content {
+            flex: 1;
+            padding: 20px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        details {
+            margin-bottom: 10px;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            padding: 5px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+        summary:hover {
+            background-color: #e9e9e9;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>HTML Elements</h2>
+        <ul>
+            <li><a href="#structure">Document Structure</a></li>
+            <li><a href="#text">Text Formatting</a></li>
+            <li><a href="#media">Media Elements</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#layout">Layout</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h1>Introduction to HTML</h1>
+        <p>HTML (Hypertext Markup Language) is the standard language used to create and design web pages. It defines the structure and layout of a web document by using a variety of tags and attributes.</p>
+        
+        <h2 id="structure">Document Structure</h2>
+        <p>HTML documents are structured with a series of elements that describe the content and layout of the page.</p>
+        <ul>
+            <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declares the document type.</li>
+            <li><strong>&lt;html&gt;</strong>: The root element of the HTML document.</li>
+            <li><strong>&lt;head&gt;</strong>: Contains meta-information about the document.</li>
+            <li><strong>&lt;body&gt;</strong>: Contains the content of the document.</li>
+        </ul>
+        
+        <details>
+            <summary>Text Formatting</summary>
+            <p>HTML provides various tags to format text.</p>
+            <ul>
+                <li><strong>&lt;p&gt;</strong>: Defines a paragraph.</li>
+                <li><strong>&lt;h1&gt; to &lt;h6&gt;</strong>: Define headings of different levels.</li>
+                <li><strong>&lt;strong&gt;</strong>: Defines bold text.</li>
+                <li><strong>&lt;em&gt;</strong>: Defines italic text.</li>
+            </ul>
+        </details>
+        
+        <details>
+            <summary>Media Elements</summary>
+            <p>HTML supports embedding various media elements.</p>
+            <ul>
+                <li><strong>&lt;img&gt;</strong>: Embeds an image.</li>
+                <li><strong>&lt;audio&gt;</strong>: Embeds audio content.</li>
+                <li><strong>&lt;video&gt;</strong>: Embeds video content.</li>
+                <li><strong>&lt;iframe&gt;</strong>: Embeds another HTML document within the current document.</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Forms</summary>
+            <p>HTML forms are used to collect user input.</p>
+            <ul>
+                <li><strong>&lt;form&gt;</strong>: The container element for form controls.</li>
+                <li><strong>&lt;input&gt;</strong>: Defines an input control.</li>
+                <li><strong>&lt;textarea&gt;</strong>: Defines a multiline text input control.</li>
+                <li><strong>&lt;button&gt;</strong>: Defines a clickable button.</li>
+                <li><strong>&lt;select&gt;</strong>: Defines a dropdown list.</li>
+            </ul>
+        </details>
+
+        <!-- Add more sections as needed -->
+        
+    </div>
+</body>
+</html>
