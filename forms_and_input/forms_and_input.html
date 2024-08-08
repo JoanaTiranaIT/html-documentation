@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Input Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Forms and Input Tags</h1>
+    <section id="form">
+        <h2>&lt;form&gt;</h2>
+        <p>The <code>&lt;form&gt;</code> tag is used to create an HTML form for user input.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;form action="/submit_form" method="post"&gt;
+    &lt;input type="text" name="username"&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+    </section>
+    <section id="input">
+        <h2>&lt;input&gt;</h2>
+        <p>The <code>&lt;input&gt;</code> tag specifies an input field where the user can enter data.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;input type="text" name="username"&gt;</code></pre>
+    </section>
+    <section id="textarea">
+        <h2>&lt;textarea&gt;</h2>
+        <p>The <code>&lt;textarea&gt;</code> tag defines a multi-line text input control.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;textarea name="message" rows="4" cols="50"&gt;Enter text here...&lt;/textarea&gt;</code></pre>
+    </section>
+    <section id="button">
+        <h2>&lt;button&gt;</h2>
+        <p>The <code>&lt;button&gt;</code> tag creates a clickable button.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;button type="button"&gt;Click Me&lt;/button&gt;</code></pre>
+    </section>
+    <section id="select">
+        <h2>&lt;select&gt;</h2>
+        <p>The <code>&lt;select&gt;</code> tag creates a drop-down list.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;select name="options"&gt;
+    &lt;option value="1"&gt;Option 1&lt;/option&gt;
+    &lt;option value="2"&gt;Option 2&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+    </section>
+    <section id="optgroup">
+        <h2>&lt;optgroup&gt;</h2>
+        <p>The <code>&lt;optgroup&gt;</code> tag groups options within a drop-down list created with <code>&lt;select&gt;</code>.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;select name="options"&gt;
+    &lt;optgroup label="Group 1"&gt;
+        &lt;option value="1"&gt;Option 1&lt;/option&gt;
+        &lt;option value="2"&gt;Option 2&lt;/option&gt;
+    &lt;/optgroup&gt;
+&lt;/select&gt;</code></pre>
+    </section>
+    <section id="option">
+        <h2>&lt;option&gt;</h2>
+        <p>The <code>&lt;option&gt;</code> tag defines an option in a drop-down list.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;option value="1"&gt;Option 1&lt;/option&gt;</code></pre>
+    </section>
+    <section id="label">
+        <h2>&lt;label&gt;</h2>
+        <p>The <code>&lt;label&gt;</code> tag defines a label for an <code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, or other form elements.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;label for="username"&gt;Username:&lt;/label&gt;
+&lt;input type="text" id="username" name="username"&gt;</code></pre>
+    </section>
+    <section id="fieldset">
+        <h2>&lt;fieldset&gt;</h2>
+        <p>The <code>&lt;fieldset&gt;</code> tag groups related elements within a form and is often used with <code>&lt;legend&gt;</code> for a description.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;fieldset&gt;
+    &lt;legend&gt;Personal Information&lt;/legend&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+&lt;/fieldset&gt;</code></pre>
+    </section>
+    <section id="legend">
+        <h2>&lt;legend&gt;</h2>
+        <p>The <code>&lt;legend&gt;</code> tag provides a caption or title for a group of elements within a <code>&lt;fieldset&gt;</code>.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;fieldset&gt;
+    &lt;legend&gt;Personal Information&lt;/legend&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+&lt;/fieldset&gt;</code></pre>
+    </section>
+    <section id="datalist">
+        <h2>&lt;datalist&gt;</h2>
+        <p>The <code>&lt;datalist&gt;</code> tag provides a list of predefined options for an <code>&lt;input&gt;</code> element.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;input list="browsers"&gt;
+&lt;datalist id="browsers"&gt;
+    &lt;option value="Chrome"&gt;
+    &lt;option value="Firefox"&gt;
+    &lt;option value="Safari"&gt;
+&lt;/datalist&gt;</code></pre>
+    </section>
+    <section id="output">
+        <h2>&lt;output&gt;</h2>
+        <p>The <code>&lt;output&gt;</code> tag displays the result of a calculation or user action.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;output for="num1 num2" name="result"&gt;&lt;/output&gt;</code></pre>
+    </section>
+</body>
+</html>

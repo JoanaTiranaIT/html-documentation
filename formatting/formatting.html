@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formatting Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Formatting Tags</h1>
+    <section id="abbr">
+        <h2>&lt;abbr&gt; </h2>
+        <p>The <code>&lt;abbr&gt;</code>  tags are used to specify abbreviations or acronyms. You can provide a description via the <code>title</code> attribute.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;</code></pre>
+    </section>
+    <section id="address">
+        <h2>&lt;address&gt;</h2>
+        <p>The <code>&lt;address&gt;</code> tag displays contact information for the author.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;address&gt;
+    John Doe<br>
+    1234 Elm Street<br>
+    Anytown, USA<br>
+    <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+&lt;/address&gt;</code></pre>
+    </section>
+    <section id="b">
+        <h2>&lt;b&gt;</h2>
+        <p>The <code>&lt;b&gt;</code> tag makes text bold.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;b&gt;Bold text&lt;/b&gt;</code></pre>
+    </section>
+    <section id="bdi">
+        <h2>&lt;bdi&gt;</h2>
+        <p>The <code>&lt;bdi&gt;</code> tag isolates a portion of text that may have a different direction from the surrounding text.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;bdi&gt;Arabic text: مرحبا&lt;/bdi&gt;</code></pre>
+    </section>
+    <section id="bdo">
+        <h2>&lt;bdo&gt;</h2>
+        <p>The <code>&lt;bdo&gt;</code> tag changes the direction of text.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;bdo dir="rtl"&gt;Right-to-left text&lt;/bdo&gt;</code></pre>
+    </section>
+    <section id="big">
+        <h2>&lt;big&gt;</h2>
+        <p>The <code>&lt;big&gt;</code> tag changes the size of text (not supported in HTML5; use CSS instead).</p>
+        <h3>Example</h3>
+        <pre><code>&lt;big&gt;Larger text&lt;/big&gt;</code></pre>
+    </section>
+    <section id="blockquote">
+        <h2>&lt;blockquote&gt;</h2>
+        <p>The <code>&lt;blockquote&gt;</code> tag defines a section that is quoted from another source.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;blockquote&gt;
+    &lt;p&gt;This is a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;</code></pre>
+    </section>
+    <section id="center">
+        <h2>&lt;center&gt;</h2>
+        <p>The <code>&lt;center&gt;</code> tag centers text (not supported in HTML5; use CSS instead).</p>
+        <h3>Example</h3>
+        <pre><code>&lt;center&gt;Centered text&lt;/center&gt;</code></pre>
+    </section>
+    <section id="cite">
+        <h2>&lt;cite&gt;</h2>
+        <p>The <code>&lt;cite&gt;</code> tag defines the title of a work, such as a book or film.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;cite&gt;The Great Gatsby&lt;/cite&gt;</code></pre>
+    </section>
+    <section id="code">
+        <h2>&lt;code&gt;</h2>
+        <p>The <code>&lt;code&gt;</code> tag defines a piece of computer code.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;code&gt;const x = 10;&lt;/code&gt;</code></pre>
+    </section>
+    <section id="del">
+        <h2>&lt;del&gt;</h2>
+        <p>The <code>&lt;del&gt;</code> tag indicates deleted text, usually displayed with a line through it.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;del&gt;Deleted text&lt;/del&gt;</code></pre>
+    </section>
+    <section id="dfn">
+        <h2>&lt;dfn&gt;</h2>
+        <p>The <code>&lt;dfn&gt;</code> tag specifies a term that is being defined.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;dfn&gt;HTML&lt;/dfn&gt; (Hypertext Markup Language)</code></pre>
+    </section>
+    <section id="em">
+        <h2>&lt;em&gt;</h2>
+        <p>The <code>&lt;em&gt;</code> tag emphasizes text, usually displayed in italics.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;em&gt;Important text&lt;/em&gt;</code></pre>
+    </section>
+    <section id="font">
+        <h2>&lt;font&gt;</h2>
+        <p>The <code>&lt;font&gt;</code> tag specifies font, color, and size (not supported in HTML5; use CSS instead).</p>
+        <h3>Example</h3>
+        <pre><code>&lt;font color="red"&gt;Red text&lt;/font&gt;</code></pre>
+    </section>
+    <section id="i">
+        <h2>&lt;i&gt;</h2>
+        <p>The <code>&lt;i&gt;</code> tag defines text in an italic style.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;i&gt;Italic text&lt;/i&gt;</code></pre>
+    </section>
+    <section id="ins">
+        <h2>&lt;ins&gt;</h2>
+        <p>The <code>&lt;ins&gt;</code> tag indicates inserted text, usually displayed with an underline.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;ins&gt;Inserted text&lt;/ins&gt;</code></pre>
+    </section>
+    <section id="kbd">
+        <h2>&lt;kbd&gt;</h2>
+        <p>The <code>&lt;kbd&gt;</code> tag represents user input, such as keyboard commands.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;kbd&gt;Ctrl+S&lt;/kbd&gt;</code></pre>
+    </section>
+    <section id="mark">
+        <h2>&lt;mark&gt;</h2>
+        <p>The <code>&lt;mark&gt;</code> tag highlights text, usually with a background color.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;mark&gt;Highlighted text&lt;/mark&gt;</code></pre>
+    </section>
+    <section id="meter">
+        <h2>&lt;meter&gt;</h2>
+        <p>The <code>&lt;meter&gt;</code> tag displays a scalar measurement within a known range.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;meter value="0.6"&gt;60%&lt;/meter&gt;</code></pre>
+    </section>
+    <section id="pre">
+        <h2>&lt;pre&gt;</h2>
+        <p>The <code>&lt;pre&gt;</code> tag displays preformatted text, preserving whitespace and line breaks.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;pre&gt;
+    Preformatted text
+    with spaces and line breaks
+&lt;/pre&gt;</code></pre>
+    </section>
+    <section id="progress">
+        <h2>&lt;progress&gt;</h2>
+        <p>The <code>&lt;progress&gt;</code> tag displays the progress of a task.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;</code></pre>
+    </section>
+    <section id="q">
+        <h2>&lt;q&gt;</h2>
+        <p>The <code>&lt;q&gt;</code> tag defines a short inline quotation.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;q&gt;This is a quote&lt;/q&gt;</code></pre>
+    </section>
+    <section id="rp">
+        <h2>&lt;rp&gt;</h2>
+        <p>The <code>&lt;rp&gt;</code> tag defines what to show in browsers that do not support ruby annotations.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;ruby&gt;漢字&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;かんじ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;</code></pre>
+    </section>
+    <section id="rt">
+        <h2>&lt;rt&gt;</h2>
+        <p>The <code>&lt;rt&gt;</code> tag defines the pronunciation of characters in a ruby annotation.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;ruby&gt;漢字&lt;rt&gt;かんじ&lt;/rt&gt;&lt;/ruby&gt;</code></pre>
+    </section>
+    <section id="ruby">
+        <h2>&lt;ruby&gt;</h2>
+        <p>The <code>&lt;ruby&gt;</code> tag defines a ruby annotation, often used in East Asian typography.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;ruby&gt;漢字&lt;rt&gt;かんじ&lt;/rt&gt;&lt;/ruby&gt;</code></pre>
+    </section>
+    <section id="s">
+        <h2>&lt;s&gt;</h2>
+        <p>The <code>&lt;s&gt;</code> tag defines text that is no longer correct or relevant, usually displayed with a line through it.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;s&gt;Strikethrough text&lt;/s&gt;</code></pre>
+    </section>
+    <section id="samp">
+        <h2>&lt;samp&gt;</h2>
+        <p>The <code>&lt;samp&gt;</code> tag defines sample output from a computer program.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;samp&gt;Error: File not found&lt;/samp&gt;</code></pre>
+    </section>
+    <section id="small">
+        <h2>&lt;small&gt;</h2>
+        <p>The <code>&lt;small&gt;</code> tag displays text in a smaller size.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;small&gt;Smaller text&lt;/small&gt;</code></pre>
+    </section>
+    <section id="strike">
+        <h2>&lt;strike&gt;</h2>
+        <p>The <code>&lt;strike&gt;</code> tag defines text that has been struck through (not supported in HTML5; use CSS instead).</p>
+        <h3>Example</h3>
+        <pre><code>&lt;strike&gt;Strikethrough text&lt;/strike&gt;</code></pre>
+    </section>
+    <section id="strong">
+        <h2>&lt;strong&gt;</h2>
+        <p>The <code>&lt;strong&gt;</code> tag defines important text, usually displayed in bold.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;strong&gt;Important text&lt;/strong&gt;</code></pre>
+    </section>
+    <section id="sub">
+        <h2>&lt;sub&gt;</h2>
+        <p>The <code>&lt;sub&gt;</code> tag defines subscript text.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;sub&gt;Subscript&lt;/sub&gt;</code></pre>
+    </section>
+    <section id="sup">
+        <h2>&lt;sup&gt;</h2>
+        <p>The <code>&lt;sup&gt;</code> tag defines superscript text.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;sup&gt;Superscript&lt;/sup&gt;</code></pre>
+    </section>
+    <section id="template">
+        <h2>&lt;template&gt;</h2>
+        <p>The <code>&lt;template&gt;</code> tag holds content that is not rendered when the page loads but can be instantiated using JavaScript.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;template&gt;
+    &lt;p&gt;This is a template&lt;/p&gt;
+&lt;/template&gt;</code></pre>
+    </section>
+    <section id="time">
+        <h2>&lt;time&gt;</h2>
+        <p>The <code>&lt;time&gt;</code> tag represents a specific period in time.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;time datetime="2024-08-08"&gt;August 8, 2024&lt;/time&gt;</code></pre>
+    </section>
+    <section id="u">
+        <h2>&lt;u&gt;</h2>
+        <p>The <code>&lt;u&gt;</code> tag defines text with a stylistic underline (use CSS for modern styling).</p>
+        <h3>Example</h3>
+        <pre><code>&lt;u&gt;Underlined text&lt;/u&gt;</code></pre>
+    </section>
+    <section id="var">
+        <h2>&lt;var&gt;</h2>
+        <p>The <code>&lt;var&gt;</code> tag defines a variable in a mathematical expression or computer program.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;var&gt;x&lt;/var&gt; = &lt;var&gt;y&lt;/var&gt; + 2</code></pre>
+    </section>
+    <section id="wbr">
+        <h2>&lt;wbr&gt;</h2>
+        <p>The <code>&lt;wbr&gt;</code> tag suggests an optional line break opportunity.</p>
+        <h3>Example</h3>
+        <pre><code>Line with longword&lt;wbr&gt;that might break&lt;wbr&gt;here</code></pre>
+    </section>
+</body>
+</html>

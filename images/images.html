@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Image Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Image Tags</h1>
+    <section id="img">
+        <h2>&lt;img&gt;</h2>
+        <p>The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+    </section>
+    <section id="map">
+        <h2>&lt;map&gt;</h2>
+        <p>The <code>&lt;map&gt;</code> tag is used to create an image map, allowing different parts of an image to act as clickable links.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;map name="mapname"&gt;
+    &lt;area shape="rect" coords="34,44,270,350" href="link.html"&gt;
+&lt;/map&gt;</code></pre>
+    </section>
+    <section id="area">
+        <h2>&lt;area&gt;</h2>
+        <p>The <code>&lt;area&gt;</code> tag is used to define clickable areas within an image map.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;area shape="rect" coords="34,44,270,350" href="link.html"&gt;</code></pre>
+    </section>
+    <section id="canvas">
+        <h2>&lt;canvas&gt;</h2>
+        <p>The <code>&lt;canvas&gt;</code> tag is used to create a drawable region on a page where graphics can be drawn using JavaScript.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;canvas id="myCanvas" width="500" height="400"&gt;&lt;/canvas&gt;</code></pre>
+    </section>
+    <section id="figcaption">
+        <h2>&lt;figcaption&gt;</h2>
+        <p>The <code>&lt;figcaption&gt;</code> tag is used to provide a caption or description for a <code>&lt;figure&gt;</code> element.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;figure&gt;
+    &lt;img src="image.jpg" alt="Description"&gt;
+    &lt;figcaption&gt;This is an image caption.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+    </section>
+    <section id="figure">
+        <h2>&lt;figure&gt;</h2>
+        <p>The <code>&lt;figure&gt;</code> tag is used to encapsulate content that is referenced from the main content, like images, diagrams, or videos.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;figure&gt;
+    &lt;img src="image.jpg" alt="Description"&gt;
+    &lt;figcaption&gt;This is an image caption.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+    </section>
+    <section id="picture">
+        <h2>&lt;picture&gt;</h2>
+        <p>The <code>&lt;picture&gt;</code> tag is used to specify multiple image sources for different conditions, such as screen sizes or resolutions.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;picture&gt;
+    &lt;source srcset="image-800w.jpg" media="(min-width: 800px)"&gt;
+    &lt;source srcset="image-400w.jpg" media="(max-width: 799px)"&gt;
+    &lt;img src="image-default.jpg" alt="Description"&gt;
+&lt;/picture&gt;</code></pre>
+    </section>
+    <section id="svg">
+        <h2>&lt;svg&gt;</h2>
+        <p>The <code>&lt;svg&gt;</code> tag is used to embed Scalable Vector Graphics (SVG) within an HTML page.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;svg width="100" height="100"&gt;
+    &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /&gt;
+&lt;/svg&gt;</code></pre>
+    </section>
+</body>
+</html>

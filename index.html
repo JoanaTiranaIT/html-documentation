@@ -45,8 +45,8 @@
             cursor: pointer;
             font-weight: bold;
             padding: 5px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
+           
+
         }
         summary:hover {
             background-color: #e9e9e9;
@@ -58,67 +58,237 @@
 </head>
 <body>
     <div id="sidebar">
-        <h2>HTML Elements</h2>
+        <h2>Elementet e HTML</h2>
         <ul>
-            <li><a href="#structure">Document Structure</a></li>
-            <li><a href="#text">Text Formatting</a></li>
-            <li><a href="#media">Media Elements</a></li>
-            <li><a href="#forms">Forms</a></li>
-            <li><a href="#links">Links</a></li>
+            <li><a href="#structure">Struktura HTML</a></li>
+            <li><a href="#basic">Basic HTML Tags</a></li>
+            <li><a href="#formatting">Formatting</a></li>
+            <li><a href="#media">Images</a></li>
+            <li><a href="#forms">Forms and Input</a></li>
             <li><a href="#tables">Tables</a></li>
+            <li><a href="#links">Links</a></li>
             <li><a href="#lists">Lists</a></li>
-            <li><a href="#layout">Layout</a></li>
+            <li><a href="#audio-video">Audio and Video</a></li>
+            <li><a href="#frames">Frames</a></li>
+            <li><a href="#meta-info">Meta Information</a></li>
+            <li><a href="#programming">Programming</a></li>
+            <li><a href="#styles">Styles and Semantics</a></li>
+
         </ul>
     </div>
     <div id="content">
-        <h1>Introduction to HTML</h1>
-        <p>HTML (Hypertext Markup Language) is the standard language used to create and design web pages. It defines the structure and layout of a web document by using a variety of tags and attributes.</p>
-        
-        <h2 id="structure">Document Structure</h2>
-        <p>HTML documents are structured with a series of elements that describe the content and layout of the page.</p>
+        <h1>Hyrje ne HTML</h1>
+        <p>HTML (Hypertext Markup Language) është gjuha standarde që përdoret për të krijuar dhe dizajnuar faqe interneti. Ajo përcakton strukturën dhe paraqitjen e një dokumenti në internet duke përdorur një sërë etiketash dhe atributësh.</p>
+        <h2 id="structure">Struktura  e dokumentit</h2>
+        <p>Dokumentet HTML janë të strukturuara me një seri elementësh që përshkruajnë përmbajtjen dhe paraqitjen e faqes.</p>
         <ul>
-            <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declares the document type.</li>
-            <li><strong>&lt;html&gt;</strong>: The root element of the HTML document.</li>
-            <li><strong>&lt;head&gt;</strong>: Contains meta-information about the document.</li>
-            <li><strong>&lt;body&gt;</strong>: Contains the content of the document.</li>
+            <li><strong>&lt;!DOCTYPE html&gt;</strong>:Deklaron llojin e dokumentit.</li>
+            <li><strong>&lt;html&gt;</strong>:Elementi rrënjë i dokumentit HTML.</li>
+            <li><strong>&lt;head&gt;</strong>: Përmban meta-informacione rreth dokumentit.</li>
+            <li><strong>&lt;body&gt;</strong>: Përmban përmbajtjen e dokumentit.</li>
         </ul>
-        
         <details>
-            <summary>Text Formatting</summary>
-            <p>HTML provides various tags to format text.</p>
+            <summary id="basic">Basic HTML Tags</summary>
+            <p>HTML provides several fundamental tags that define the structure and content of a web page. Here are some key basic HTML tags:</p>
             <ul>
-                <li><strong>&lt;p&gt;</strong>: Defines a paragraph.</li>
-                <li><strong>&lt;h1&gt; to &lt;h6&gt;</strong>: Define headings of different levels.</li>
-                <li><strong>&lt;strong&gt;</strong>: Defines bold text.</li>
-                <li><strong>&lt;em&gt;</strong>: Defines italic text.</li>
+                <li><a href="basic-html/basic.html#title">&lt;title&gt;</a></li>
+                <li><a href="basic-html/basic.html#body">&lt;body&gt;</a></li>
+                <li><a href="basic-html/basic.html#headings">&lt;h1&gt; to &lt;h6&gt;</a></li>
+                <li><a href="basic-html/basic.html#paragraph">&lt;p&gt;</a></li>
+                <li><a href="basic-html/basic.html#break">&lt;br&gt;</a></li>
+                <li><a href="basic-html/basic.html#horizontal-rule">&lt;hr&gt;</a></li>
+                <li><a href="basic-html/basic.html#comment">&lt;!-- ... --&gt;</a></li>
             </ul>
         </details>
         
         <details>
-            <summary>Media Elements</summary>
+            <summary id="formatting">Formatting</summary>
+            <p>HTML provides various tags to format text. Here are some key formatting tags:</p>
+            <ul>
+                <li><a href="formatting/formatting.html#abbr">&lt;abbr&gt;</a> </li>
+                <li><a href="formatting/formatting.html#address">&lt;address&gt;</a></li>
+                <li><a href="formatting/formatting.html#b">&lt;b&gt;</a></li>
+                <li><a href="formatting/formatting.html#bdi">&lt;bdi&gt;</a></li>
+                <li><a href="formatting/formatting.html#bdo">&lt;bdo&gt;</a></li>
+                <li><a href="formatting/formatting.html#big">&lt;big&gt;</a></li>
+                <li><a href="formatting/formatting.html#blockquote">&lt;blockquote&gt;</a></li>
+                <li><a href="formatting/formatting.html#center">&lt;center&gt;</a></li>
+                <li><a href="formatting/formatting.html#cite">&lt;cite&gt;</a></li>
+                <li><a href="formatting/formatting.html#code">&lt;code&gt;</a></li>
+                <li><a href="formatting/formatting.html#del">&lt;del&gt;</a></li>
+                <li><a href="formatting/formatting.html#dfn">&lt;dfn&gt;</a></li>
+                <li><a href="formatting/formatting.html#em">&lt;em&gt;</a></li>
+                <li><a href="formatting/formatting.html#font">&lt;font&gt;</a></li>
+                <li><a href="formatting/formatting.html#i">&lt;i&gt;</a></li>
+                <li><a href="formatting/formatting.html#ins">&lt;ins&gt;</a></li>
+                <li><a href="formatting/formatting.html#kbd">&lt;kbd&gt;</a></li>
+                <li><a href="formatting/formatting.html#mark">&lt;mark&gt;</a></li>
+                <li><a href="formatting/formatting.html#meter">&lt;meter&gt;</a></li>
+                <li><a href="formatting/formatting.html#pre">&lt;pre&gt;</a></li>
+                <li><a href="formatting/formatting.html#progress">&lt;progress&gt;</a></li>
+                <li><a href="formatting/formatting.html#q">&lt;q&gt;</a></li>
+                <li><a href="formatting/formatting.html#rp">&lt;rp&gt;</a></li>
+                <li><a href="formatting/formatting.html#rt">&lt;rt&gt;</a></li>
+                <li><a href="formatting/formatting.html#ruby">&lt;ruby&gt;</a></li>
+                <li><a href="formatting/formatting.html#s">&lt;s&gt;</a></li>
+                <li><a href="formatting/formatting.html#samp">&lt;samp&gt;</a></li>
+                <li><a href="formatting/formatting.html#small">&lt;small&gt;</a></li>
+                <li><a href="formatting/formatting.html#strike">&lt;strike&gt;</a></li>
+                <li><a href="formatting/formatting.html#strong">&lt;strong&gt;</a></li>
+                <li><a href="formatting/formatting.html#sub">&lt;sub&gt;</a></li>
+                <li><a href="formatting/formatting.html#sup">&lt;sup&gt;</a></li>
+                <li><a href="formatting/formatting.html#template">&lt;template&gt;</a></li>
+                <li><a href="formatting/formatting.html#time">&lt;time&gt;</a></li>
+                <li><a href="formatting/formatting.html#u">&lt;u&gt;</a></li>
+                <li><a href="formatting/formatting.html#var">&lt;var&gt;</a></li>
+                <li><a href="formatting/formatting.html#wbr">&lt;wbr&gt;</a></li>
+            </ul>
+        </details>
+        
+        
+        <details>
+            <summary id="media">Images</summary>
             <p>HTML supports embedding various media elements.</p>
             <ul>
-                <li><strong>&lt;img&gt;</strong>: Embeds an image.</li>
-                <li><strong>&lt;audio&gt;</strong>: Embeds audio content.</li>
-                <li><strong>&lt;video&gt;</strong>: Embeds video content.</li>
-                <li><strong>&lt;iframe&gt;</strong>: Embeds another HTML document within the current document.</li>
+                <li><a href="images/images.html#img">&lt;img&gt;</a></li>
+                <li><a href="images/images.html#map">&lt;map&gt;</a></li>
+                <li><a href="images/images.html#area">&lt;area&gt;</a></li>
+                <li><a href="images/images.html#canvas">&lt;canvas&gt;</a></li>
+                <li><a href="images/images.html#figcaption">&lt;figcaption&gt;</a></li>
+                <li><a href="images/images.html#figure">&lt;figure&gt;</a></li>
+                <li><a href="images/images.html#picture">&lt;picture&gt;</a></li>
+                <li><a href="images/images.html#svg">&lt;svg&gt;</a></li>
             </ul>
         </details>
+        
+        <details>
+            <summary id="forms">Forms and Input</summary>
+            <p>HTML provides various tags for creating forms and input controls.</p>
+            <ul>
+                <li><a href="forms_and_input/forms_and_input.html#form">&lt;form&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#input">&lt;input&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#textarea">&lt;textarea&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#button">&lt;button&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#select">&lt;select&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#optgroup">&lt;optgroup&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#option">&lt;option&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#label">&lt;label&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#fieldset">&lt;fieldset&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#legend">&lt;legend&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#datalist">&lt;datalist&gt;</a></li>
+                <li><a href="forms_and_input/forms_and_input.html#output">&lt;output&gt;</a></li>
+            </ul>
+        </details>
+        
+
 
         <details>
-            <summary>Forms</summary>
-            <p>HTML forms are used to collect user input.</p>
+            <summary id="tables">Tables</summary>
+            <p>HTML supports various tags for creating and managing tables.</p>
             <ul>
-                <li><strong>&lt;form&gt;</strong>: The container element for form controls.</li>
-                <li><strong>&lt;input&gt;</strong>: Defines an input control.</li>
-                <li><strong>&lt;textarea&gt;</strong>: Defines a multiline text input control.</li>
-                <li><strong>&lt;button&gt;</strong>: Defines a clickable button.</li>
-                <li><strong>&lt;select&gt;</strong>: Defines a dropdown list.</li>
+                <li><a href="tables/tables.html#table">&lt;table&gt;</a></li>
+                <li><a href="tables/tables.html#caption">&lt;caption&gt;</a></li>
+                <li><a href="tables/tables.html#th">&lt;th&gt;</a></li>
+                <li><a href="tables/tables.html#tr">&lt;tr&gt;</a></li>
+                <li><a href="tables/tables.html#td">&lt;td&gt;</a></li>
+                <li><a href="tables/tables.html#thead">&lt;thead&gt;</a></li>
+                <li><a href="tables/tables.html#tbody">&lt;tbody&gt;</a></li>
+                <li><a href="tables/tables.html#tfoot">&lt;tfoot&gt;</a></li>
+                <li><a href="tables/tables.html#col">&lt;col&gt;</a></li>
+                <li><a href="tables/tables.html#colgroup">&lt;colgroup&gt;</a></li>
+                <li><a href="tables/tables.html#colspan">colspan</a></li>
+                <li><a href="tables/tables.html#rowspan">rowspan</a></li>
             </ul>
         </details>
-
-        <!-- Add more sections as needed -->
+    
         
+    <details>
+        <summary id="links">Links</summary>
+        <p>HTML supports various tags for creating and managing links and navigation.</p>
+        <ul>
+            <li><a href="links/links.html#a">&lt;a&gt;</a></li>
+            <li><a href="links/links.html#link">&lt;link&gt;</a></li>
+            <li><a href="links/links.html#nav">&lt;nav&gt;</a></li>
+        </ul>
+    </details>
+        
+    <details>
+        <summary id="lists">Lists</summary>
+        <p>HTML supports various types of lists for organizing content.</p>
+        <ul>
+            <li><a href="lists/lists.html#menu">&lt;menu&gt;</a></li>
+            <li><a href="lists/lists.html#ul">&lt;ul&gt;</a></li>
+            <li><a href="lists/lists.html#ol">&lt;ol&gt;</a></li>
+            <li><a href="lists/lists.html#li">&lt;li&gt;</a></li>
+            <li><a href="lists/lists.html#dl">&lt;dl&gt;</a></li>
+            <li><a href="lists/lists.html#dt">&lt;dt&gt;</a></li>
+            <li><a href="lists/lists.html#dd">&lt;dd&gt;</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary id="audio-video">Audio and Video</summary>
+        <p>HTML supports various tags for embedding and controlling audio and video content.</p>
+        <ul>
+            <li><a href="audio-video/audio-video.html#audio">&lt;audio&gt;</a></li>
+            <li><a href="audio-video/audio-video.html#source">&lt;source&gt;</a></li>
+            <li><a href="audio-video/audio-video.html#track">&lt;track&gt;</a></li>
+            <li><a href="audio-video/audio-video.html#video">&lt;video&gt;</a></li>
+        </ul>
+    </details>
+
+
+    <details>
+        <summary id="frames">Frames</summary>
+        <p></p>
+        <ul>
+           
+        </ul>
+    </details>
+
+    
+    <details>
+        <summary id="meta-info">Meta Information</summary>
+        <p>HTML provides various tags for defining meta-information and document resources.</p>
+        <ul>
+            <li><a href="meta-info/meta-info.html#head">&lt;head&gt;</a></li>
+            <li><a href="meta-info/meta-info.html#meta">&lt;meta&gt;</a></li>
+            <li><a href="meta-info/meta-info.html#base">&lt;base&gt;</a></li>
+        </ul>
+    </details>
+    <details>
+        <summary id="programming">Programming</summary>
+        <p>HTML supports various tags for embedding programming-related content.</p>
+        <ul>
+            <li><a href="programming/programming.html#script">&lt;script&gt;</a></li>
+            <li><a href="programming/programming.html#noscript">&lt;noscript&gt;</a></li>
+            <li><a href="programming/programming.html#embed">&lt;embed&gt;</a></li>
+            <li><a href="programming/programming.html#object">&lt;object&gt;</a></li>
+            <li><a href="programming/programming.html#param">&lt;param&gt;</a></li>
+        </ul>
+    </details>
+
+    <details>
+        <summary id="styles">Styles and Semantics</summary>
+        <p>HTML tags related to styling and document structure.</p>
+        <ul>
+            <li><a href="styles-and-semantics/styles-semantics.html#style">&lt;style&gt;</a></li>
+            <li><a href="styles-and-semantics.html#div">&lt;div&gt;</a></li>
+            <li><a href="styles-and-semantics.html#span">&lt;span&gt;</a></li>
+            <li><a href="styles-and-semantics.html#header">&lt;header&gt;</a></li>
+            <li><a href="styles-and-semantics.html#hgroup">&lt;hgroup&gt;</a></li>
+            <li><a href="styles-and-semantics.html#footer">&lt;footer&gt;</a></li>
+            <li><a href="styles-and-semantics.html#main">&lt;main&gt;</a></li>
+            <li><a href="styles-and-semantics.html#section">&lt;section&gt;</a></li>
+            <li><a href="styles-and-semantics.html#search">&lt;search&gt;</a></li>
+            <li><a href="styles-and-semantics.html#article">&lt;article&gt;</a></li>
+            <li><a href="styles-and-semantics.html#aside">&lt;aside&gt;</a></li>
+            <li><a href="styles-and-semantics.html#details">&lt;details&gt;</a></li>
+            <li><a href="styles-and-semantics.html#dialog">&lt;dialog&gt;</a></li>
+            <li><a href="styles-and-semantics.html#summary">&lt;summary&gt;</a></li>
+            <li><a href="styles-and-semantics.html#data">&lt;data&gt;</a></li>
+        </ul>
+    </details>
+    
     </div>
 </body>
 </html>

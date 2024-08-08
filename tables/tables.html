@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tables</h1>
+    <section id="table">
+        <h2>&lt;table&gt;</h2>
+        <p>The <code>&lt;table&gt;</code> tag is used to create a table in HTML.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="caption">
+        <h2>&lt;caption&gt;</h2>
+        <p>The <code>&lt;caption&gt;</code> tag adds a title to the table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;caption&gt;Table Title&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="th">
+        <h2>&lt;th&gt;</h2>
+        <p>The <code>&lt;th&gt;</code> tag defines a header cell in a table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header&lt;/th&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="tr">
+        <h2>&lt;tr&gt;</h2>
+        <p>The <code>&lt;tr&gt;</code> tag defines a row in a table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="td">
+        <h2>&lt;td&gt;</h2>
+        <p>The <code>&lt;td&gt;</code> tag defines a cell in a table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Cell data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="thead">
+        <h2>&lt;thead&gt;</h2>
+        <p>The <code>&lt;thead&gt;</code> tag groups the header content in a table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Header 1&lt;/th&gt;
+            &lt;th&gt;Header 2&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Data 1&lt;/td&gt;
+            &lt;td&gt;Data 2&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="tbody">
+        <h2>&lt;tbody&gt;</h2>
+        <p>The <code>&lt;tbody&gt;</code> tag groups the body content in a table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Header&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="tfoot">
+        <h2>&lt;tfoot&gt;</h2>
+        <p>The <code>&lt;tfoot&gt;</code> tag groups the footer content in a table.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Header&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Footer&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="col">
+        <h2>&lt;col&gt;</h2>
+        <p>The <code>&lt;col&gt;</code> tag specifies column properties.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col style="background-color: #f4f4f4;"&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="colgroup">
+        <h2>&lt;colgroup&gt;</h2>
+        <p>The <code>&lt;colgroup&gt;</code> tag groups one or more columns in a table for formatting.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col style="background-color: #f4f4f4;"&gt;
+        &lt;col&gt;
+    &lt;/colgroup&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="colspan">
+        <h2>colspan</h2>
+        <p>The <code>colspan</code> attribute allows a cell to span multiple columns.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td colspan="2"&gt;Spans two columns&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    </section>
+    <section id="rowspan">
+        <h2>rowspan</h2>
+        <p>The <code>rowspan</code> attribute allows a cell to span multiple rows.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td rowspan="2"&gt;Spans two rows&lt;/td&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;More data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre

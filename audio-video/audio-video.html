@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Audio and Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Audio and Video</h1>
+
+    <section id="audio">
+        <h2>&lt;audio&gt;</h2>
+        <p>The <code>&lt;audio&gt;</code> tag is used to embed audio content in a document.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+    </section>
+
+    <section id="source">
+        <h2>&lt;source&gt;</h2>
+        <p>The <code>&lt;source&gt;</code> tag specifies multiple media resources for elements like <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code>.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+    &lt;source src="audio.ogg" type="audio/ogg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+    </section>
+
+    <section id="track">
+        <h2>&lt;track&gt;</h2>
+        <p>The <code>&lt;track&gt;</code> tag provides text tracks for <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> elements, such as subtitles or captions.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;video controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    &lt;track kind="subtitles" src="subtitles_en.vtt" srclang="en" label="English"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
+    </section>
+
+    <section id="video">
+        <h2>&lt;video&gt;</h2>
+        <p>The <code>&lt;video&gt;</code> tag is used to embed video content in a document.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;video width="320" height="240" controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    &lt;source src="video.ogg" type="video/ogg"&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
+    </section>
+</body>
+</html>

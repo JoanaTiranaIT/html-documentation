@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Programming Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Programming Tags</h1>
+
+    <section id="script">
+        <h2>&lt;script&gt;</h2>
+        <p>The <code>&lt;script&gt;</code> tag is used to define a client-side script, such as JavaScript, that can be executed in the user's browser to add functionality and interactivity to a webpage.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;script&gt;
+    alert('Hello, world!');
+&lt;/script&gt;</code></pre>
+    </section>
+
+    <section id="noscript">
+        <h2>&lt;noscript&gt;</h2>
+        <p>The <code>&lt;noscript&gt;</code> tag defines alternative content for users who do not support client-side scripts, like JavaScript, ensuring accessibility for those with scripts disabled.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;noscript&gt;
+    <p>JavaScript is required to view this content.</p>
+&lt;/noscript&gt;</code></pre>
+    </section>
+
+    <section id="embed">
+        <h2>&lt;embed&gt;</h2>
+        <p>The <code>&lt;embed&gt;</code> tag specifies a container for an external application (non-HTML), such as media or interactive content, integrated directly into the webpage.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;embed src="example.pdf" width="600" height="400"&gt;</code></pre>
+    </section>
+
+    <section id="object">
+        <h2>&lt;object&gt;</h2>
+        <p>The <code>&lt;object&gt;</code> tag specifies an embedded object in a webpage, allowing for the inclusion of various content types like images, videos, or other applications within the HTML document.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;object data="example.swf" width="600" height="400"&gt;
+    <p>Your browser does not support this object.</p>
+&lt;/object&gt;</code></pre>
+    </section>
+
+    <section id="param">
+        <h2>&lt;param&gt;</h2>
+        <p>The <code>&lt;param&gt;</code> tag defines a parameter for an object, specifying different values passed to the <code>&lt;object&gt;</code> element to influence how it interprets or displays its content.</p>
+        <h3>Example</h3>
+        <pre><code>&lt;object data="example.swf" width="600" height="400"&gt;
+    &lt;param name="autoplay" value="true"&gt;
+    <p>Your browser does not support this object.</p>
+&lt;/object&gt;</code></pre>
+    </section>
+
+</body>
+</html>
